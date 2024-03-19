@@ -1,0 +1,41 @@
+.cs{
+height: 100%;
+width: 100%;
+left: 0;
+top: 0;
+position: absolute;
+z-index: 1;
+}
+.Xihua_logo img {
+float: left;
+height: 50px;
+left: 0px;
+top: 0px;
+position: relative;
+opacity: 1; 
+z-index: 100;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.nav_image img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+.sidebar {
+    position: fixed;
+    top:9.5%;
+    left:0;
+    width: 100px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 10px;
+    box-sizing: 0 0 2px rgba(0, 0, 0, 0.1);
+
+    z-index: 60;
+}
+
+
